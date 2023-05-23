@@ -1,7 +1,3 @@
-# env setup
-# source ~/Coding_Workspace/python_learning/venv/bin/activate
-# export PYTHONPATH="${PYTHONPATH}:/Users/glenn.carson/Coding_Workspace/python_learning/venv/bin"
-
 import requests
 import pandas as pd
 from io import StringIO
