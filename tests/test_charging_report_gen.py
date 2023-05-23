@@ -5,7 +5,7 @@ from io import StringIO
 import subprocess
 from pathlib import Path
 
-from ev_charging_report.bin.charging_report_gen import (
+from bin.charging_report_gen import (
     get_todays_caiso_fuelsource_data,
     get_latest_energy_mix_from_todays_caiso_data,
     calculate_clean_energy_percentage,
